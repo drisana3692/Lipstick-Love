@@ -24,7 +24,7 @@ function modelLoaded() {
 function gotPoses(results) {
 if(results.length > 0) {
     console.log(results);
-    console.log("Nose X Coordinate =" + results[0].pose.net.x);
-    console.log("Nose Y Coordinate" + results[0].pose.net.y);
+    console.log("Nose X Coordinate =" + results[0].pose.nose.x);
+    console.log("Nose Y Coordinate" + results[0].pose.nose.y);
 }
 }
